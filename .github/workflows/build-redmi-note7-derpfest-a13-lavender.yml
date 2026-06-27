@@ -12,8 +12,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/okta-10/mystic_kernel_sdm660-4.4.git"
-  KERNEL_BRANCH : "mystic-caf"
+  KERNEL_SOURCE : "https://github.com/DerpFest-Devices/kernel_xiaomi_sdm660.git"
+  KERNEL_BRANCH : "13"
 
   CLANG_SOURCE : "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/tags/android-12.0.0_r29/clang-r383902.tar.gz"
   CLANG_BRANCH : ""
@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "lavender-perf_defconfig"
+  DEFCONFIG_NAME : "lavender_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
